@@ -1,0 +1,38 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+hr {
+  background-color: white;
+  border-style: none;
+}
+
+.profile {
+  background-color: #f0ebef;
+}
+
+.img-circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.skill {
+  background-color: #f1c5e9;
+}
+
+.resume {
+  background-color: #e0defa;
+}
+
+.contact {
+  background-color: #f3e2d1;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
