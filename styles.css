@@ -1,3 +1,10 @@
+body {
+  font-family: "Kodchasan", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  background-color: rgb(21, 52, 72);
+  color: rgb(223, 208, 184);
+}
 .container {
   width: 100%;
   margin-right: auto;
@@ -7,10 +14,14 @@
 hr {
   background-color: white;
   border-style: none;
+  height: 2px;
 }
 
 .profile {
-  background-color: #f0ebef;
+  border-style: dashed;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 15px 0;
 }
 
 .img-circle {
@@ -20,19 +31,28 @@ hr {
 }
 
 .skill {
-  background-color: #f1c5e9;
+  /* background-color: #f1c5e9; */
 }
 
 .resume {
-  background-color: #e0defa;
+  /* background-color: #e0defa; */
 }
 
 .contact {
-  background-color: #f3e2d1;
+  /* background-color: #f3e2d1; */
 }
 
-table,
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
 th,
 td {
-  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  /* background-color: #d6eeee; */
 }
